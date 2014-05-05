@@ -1,5 +1,7 @@
 /*done by Coderiver.com.ua */
-.panel-custom .list-group-item > .glyphicon { margin-right: 5px; vertical-align: top; display: inline-block; }
-.panel-custom .list-group-item > a { vertical-align: middle; display: inline-block; width: 70%; }
-.panel-custom .table { margin-bottom: 0; margin-top: 8px; }
-.panel-custom .table td:first-child { padding-left: 19px; }
+.panel-radar .list-group-item > .glyphicon { margin-right: 5px; vertical-align: top; display: inline-block; }
+.panel-radar .list-group-item > a { vertical-align: middle; display: inline-block; width: 70%; }
+.panel-radar .list-group-item.active { color: white; background: #418bca; }
+.panel-radar .list-group-item.active a { color: white; }
+.panel-radar .table { margin-bottom: 0; margin-top: 8px; }
+.panel-radar .table td:first-child { padding-left: 19px; }
