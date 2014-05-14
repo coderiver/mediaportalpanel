@@ -11,7 +11,10 @@
 .navbar-fixed-toppest .navbar-nav > li > a { color: white; }
 .navbar-fixed-toppest .navbar-nav > li > a:hover { color: #2d96cd; }
 .navbar-fixed-toppest .navbar-text { color: white; }
+.navbar-fixed-toppest a { color: white; }
 
+.navbar-fixed-top1 { height: 40px; min-height: 40px; }
+.navbar-fixed-top1 .navbar-nav > li > a { padding-top: 10px !important; padding-bottom: 10px !important; }
 .navbar-fixed-top1 .navbar-brand { font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s8cac270615.png') 0 -30px no-repeat; width: 77px; height: 44px; position: relative; top: -14px; margin: 0 10px; }
 
 .panel .panel-heading { background: #095393; }
