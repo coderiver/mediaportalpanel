@@ -25,6 +25,9 @@ $gol: #199DDB
 .navbar-fixed-top1
 	height: 40px
 	min-height: 40px 
+	background-color: #d0d0d0 // Old browsers
+	
+	@include background-image(linear-gradient(top, #d0d0d0 0%,#ffffff 1%,#ffffff 3%,#f8f8f8 4%,#fdfdfd 5%,#ffffff 6%,#ffffff 35%,#f1f1f1 67%,#f2f2f2 95%,#eff0f0 96%,#ffffff 97%,#ffffff 99%,#e2e2e3 100%))
 	.navbar-nav>li>a
 		padding-top: 10px !important
 		padding-bottom: 10px !important
@@ -33,7 +36,11 @@ $gol: #199DDB
 		+s(ford)
 		position: relative
 		top: -14px 
-		margin: 0 10px 
+		margin: 0 10px
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+	background: transparent
+	color: #000
+	font-weight: bold  
 .panel
 	.panel-heading
 		background: $blue 
