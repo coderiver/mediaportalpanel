@@ -5,3 +5,16 @@
 .panel-radar .list-group-item.active a { color: white; }
 .panel-radar .table { margin-bottom: 0; margin-top: 8px; }
 .panel-radar .table td:first-child { padding-left: 19px; }
+
+.navbar { background: url(../img/bg.jpg) repeat-x 0 0; }
+.navbar .navbar-brand { font: 0/0 a; text-shadow: none; color: transparent; background: url('../img/icons-s8cac270615.png') 0 -30px no-repeat; width: 77px; height: 44px; margin: 0 10px; }
+.navbar .navbar-nav > li > a { color: white; }
+.navbar .navbar-nav > li > a:hover { color: #2d96cd; }
+.navbar .navbar-text { color: white; }
+
+.panel .panel-heading { background: #095393; }
+.panel .panel-heading a { color: white; }
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th { background: #a0adb7; }
+
+.panel-radar .list-group-item.active { background: #199ddb; }
