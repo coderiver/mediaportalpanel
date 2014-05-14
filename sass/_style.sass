@@ -1,8 +1,15 @@
 $blue: #095393
 $lite: #A0ADB7
 $gol: #199DDB
-.navbar
+.navbar-fixed-toppest 
 	background: url(../img/bg.jpg) repeat-x 0 0
+	+background-size(auto 100%)
+	height: 25px
+	line-height: 25px
+	margin: 0
+	min-height: 25px    
+	color: #fff
+	font-size: 11px  
 	.navbar-brand 
 		+hide-text
 		+s(ford)
@@ -13,6 +20,13 @@ $gol: #199DDB
 			color: #2D96CD 
 	.navbar-text
 		color: #fff 
+.navbar-fixed-top1
+	.navbar-brand 
+		+hide-text
+		+s(ford)
+		position: relative
+		top: -14px 
+		margin: 0 10px 
 .panel
 	.panel-heading
 		background: $blue 
@@ -21,4 +35,6 @@ $gol: #199DDB
 .table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th
 	background: $lite 
 .panel-radar .list-group-item.active
-	background: $gol 
+	background: $gol
+
+
