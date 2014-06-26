@@ -53,31 +53,45 @@ $gol: #199DDB
 
 //pic
 .pic
-	padding: 2px 10px
+	padding: 4px 10px 2px
 	font-size: 14px
 	font-weight: 400
-	border: #adadad
+	border: 1px solid #adadad
 	+border-radius(4px)
 	background: #fff
 	display: inline-block
 	.glyphicon
 		padding: 0
 
-//field
-.field
+//lead_mod
+.lead_mod
+	a
+		color: #000
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+//.well_media
+.well_media
 	position: relative
-	padding-left: 90px
-	.btn_abs
+	.pic
 		position: absolute
-		top: 020px
-		left: 25px
-	.well_media
-		.media
-			margin-top: 0
-	.img-relet
-		position: relative
-		float: left
-		.pic
-			position: absolute
-			top: 15px
-			right: 15px
+		top: 15px
+		right: 15px
+
+// //field
+// .field
+// 	position: relative
+// 	padding-left: 90px
+// 	.btn_abs
+// 		position: absolute
+// 		top: 020px
+// 		left: 25px
+// 		.media
+// 			margin-top: 0
+.img-relet
+	position: relative
+	float: left
+	.pic
+		position: absolute
+		top: 15px
+		right: 15px
